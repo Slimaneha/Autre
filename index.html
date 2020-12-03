@@ -578,7 +578,7 @@
           var Semaine1M = 
             [
                         Lundi = 49.66, 
-                        mardi = 0.00, 
+                        mardi = 39.54, 
                         mercredi =0.00, 
                         jeudi = 0.00,
                         vendredi = 0.00,   
@@ -589,7 +589,7 @@
             var Semaine1S = 
             [
                         Lundi = 0.00, 
-                        mardi = 0.00, 
+                        mardi = 57.32, 
                         mercredi = 0.00, 
                         jeudi = 0.00,
                         vendredi = 0.00,   
@@ -649,7 +649,7 @@
               ];                
           
               var total3011 =  TotalJourBrutS3011[0]+TotalJourBrutS3011[1]+TotalJourBrutS3011[2]+TotalJourBrutS3011[3]+TotalJourBrutS3011[4]+TotalJourBrutS3011[6];  
-                          document.getElementById("total3011").innerHTML=total3011;
+                          document.getElementById("total3011").innerHTML=total3011.toFixed(2);
                           document.getElementById("TempsCo3011").innerHTML=TotalTempsDeCo3011; 
  
               if (total3011 > 300 ) 
@@ -773,6 +773,26 @@
     <li class="nav-item">
       <a class="nav-link" data-toggle="modal" data-target="#exampleModal301120" >Semaine du 30/11/20 au 06/12/20 </a>
     </li><li class="nav-item">
+
+
+      <div class="flex">
+        <!-- Tip: use bg-* and text-* utilities to style the card -->
+<div class="card text-white bg-primary mb-3 d-inline-block" style="max-width: 20rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h4 class="card-title">Primary card title</h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<div class="card text-white bg-dark mb-3 d-inline-block" style="max-width: 20rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h4 class="card-title">Primary card title</h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+
+      </div>
 
 
       <script>
